@@ -5,6 +5,6 @@ export class Empleado{
     public edad:number,
     public cargo:string,
     public contratado:boolean
-  ){}
+  ){} 
 
 }

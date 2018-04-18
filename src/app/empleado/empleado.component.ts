@@ -9,9 +9,29 @@ import { Empleado } from './Empleado';
 export class EmpleadoComponent{
   public titulo_componente = 'Componente Empleados';
   public empleado:Empleado;
+  public trabajadores:Array<Empleado>;
+  public trabajador_externo:boolean;
+  public color:string;
+
+  constructor(){
+    this.empleado = new Empleado('Pepito Pérez', 33, 'Cocinero', true);
+
+    this.trabajadores= [
+      new Empleado('Ana posada', 25, 'Cocinero', true),
+      new Empleado('Javier Herrera', 40, 'Cocinero', true),
+      new Empleado('Paola Gimenez', 32, 'Cocinero', true)
+    ];
+    this.trabajador_externo = true;
+    this.color = 'blue';
+  }
 
   ngOnInit(){
-    this.empleado = new Empleado('Pepito Pérez', 33, 'Cocinero', true);
     console.log(this.empleado);
+    console.log(this.trabajadores);
   }
+
+  cambiarExterno(valor){
+    this.trabajador_externo = valor;
+  }
+
 }
