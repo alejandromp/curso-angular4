@@ -19,19 +19,21 @@ export class FrutaComponent{
     this.nombre = 'Alejandro Montoya';
     this.edad = 43;
     this.mayordeEdad = false;
-    this.comodin ="SI"
+    this.comodin ="SI";
   }
 
   ngOnInit(){
-      this.cambiarNombre('Adriana Carmona');
-      this.cambiarEdad(45);
-      console.log(this.nombre + " " + this.edad);
+      //this.cambiarNombre('Adriana Carmona');
+    //  this.cambiarEdad(45);
+      //console.log(this.nombre + " " + this.edad); 
   }
 
   cambiarNombre(){
     this.nombre = "Adriana Carmona";
   }
-  cambiarEdad(edad){
+
+/*  cambiarEdad(edad){
     this.edad = edad;
-  }
+  }*/
+
 }
