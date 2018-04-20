@@ -1,3 +1,7 @@
-.bordeazul{
-  border: 5px solid
+.fondoAzul{
+  background:lightblue !important;
+}
+
+.fondoVerde{
+  background:lightgreen !important;
 }
