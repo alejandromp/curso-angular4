@@ -10,7 +10,13 @@ import { FrutaComponent } from './fruta/fruta.component';
 import { EmpleadoComponent} from './empleado/empleado.component';
 import { HomeComponent } from './home/home.component';
 import { ContactoComponent} from './contacto/contacto.component';
+<<<<<<< HEAD
+import { CochesComponent} from './coches/coches.component';
 
+import {ConversorPipe} from './pipes/conversor.pipe';
+=======
+
+>>>>>>> c673af7adbeb30c3139ece1bd6ff7307d0d75a68
 
 @NgModule({
   declarations: [
@@ -18,7 +24,13 @@ import { ContactoComponent} from './contacto/contacto.component';
     FrutaComponent,
     EmpleadoComponent,
     HomeComponent,
+<<<<<<< HEAD
+    ContactoComponent,
+    ConversorPipe,
+    CochesComponent
+=======
     ContactoComponent
+>>>>>>> c673af7adbeb30c3139ece1bd6ff7307d0d75a68
   ],
   imports: [
     BrowserModule,

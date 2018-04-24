@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .fondoAzul{
   background:lightblue !important;
 }
@@ -10,3 +11,17 @@
   font-weight: bold;
   background: yellow;
   }
+=======
+.fondoAzul{
+  background:lightblue !important;
+}
+
+.fondoVerde{
+  background:lightgreen !important;
+}
+
+.activado{
+  font-weight: bold;
+  background: yellow;
+  }
+>>>>>>> c673af7adbeb30c3139ece1bd6ff7307d0d75a68
