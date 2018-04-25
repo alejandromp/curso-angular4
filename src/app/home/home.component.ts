@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { Component } from '@angular/core';
 import { RopaService} from '../services/ropa.service';
 
@@ -37,15 +36,3 @@ export class HomeComponent{
   }
 
 }
-=======
-import { Component } from '@angular/core';
-
-@Component({
-  selector: 'home',
-  templateUrl: './home.component.html'
-})
-
-export class HomeComponent{
-  public titulo = "Página principal home";
-}
->>>>>>> c673af7adbeb30c3139ece1bd6ff7307d0d75a68

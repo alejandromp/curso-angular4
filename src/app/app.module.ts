@@ -10,13 +10,10 @@ import { FrutaComponent } from './fruta/fruta.component';
 import { EmpleadoComponent} from './empleado/empleado.component';
 import { HomeComponent } from './home/home.component';
 import { ContactoComponent} from './contacto/contacto.component';
-<<<<<<< HEAD
 import { CochesComponent} from './coches/coches.component';
+import { PlantillasComponent} from './plantillas/plantillas.component';
 
 import {ConversorPipe} from './pipes/conversor.pipe';
-=======
-
->>>>>>> c673af7adbeb30c3139ece1bd6ff7307d0d75a68
 
 @NgModule({
   declarations: [
@@ -24,13 +21,10 @@ import {ConversorPipe} from './pipes/conversor.pipe';
     FrutaComponent,
     EmpleadoComponent,
     HomeComponent,
-<<<<<<< HEAD
     ContactoComponent,
+    CochesComponent,
     ConversorPipe,
-    CochesComponent
-=======
-    ContactoComponent
->>>>>>> c673af7adbeb30c3139ece1bd6ff7307d0d75a68
+    PlantillasComponent
   ],
   imports: [
     BrowserModule,
